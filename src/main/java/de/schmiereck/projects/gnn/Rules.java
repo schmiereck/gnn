@@ -12,6 +12,9 @@ public class Rules {
     public Rules(final RuleSet ruleSet) {
         this.ruleSet = ruleSet;
         this.ruleList = new Rule[this.ruleSet.getRuleList().size()];
+        for (int pos = 0; pos < this.ruleList.length; pos++) {
+            this.ruleList[pos] = new Rule(null);
+        }
     }
 
     public void setRule(final Character outputStatus, final Character c0, final Character c1, final Character c2) {

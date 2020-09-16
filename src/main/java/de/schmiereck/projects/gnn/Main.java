@@ -1,5 +1,6 @@
 package de.schmiereck.projects.gnn;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
@@ -16,28 +17,29 @@ public class Main {
         {
             final Line inputLine = new Line();
             final Character[] inputArr = new Character[]{
-                    '1',
                     '0',
-                    null
-            };
+                    null,
+                    '1'
+                    };
 
             Arrays.stream(inputArr).forEach(c -> inputLine.addCell(new Cell(ruleSet, c)));
             matrix.setInputLine(inputLine);
         }
+        addLine(matrix, ruleSet, 0, 3);
         {
             final Line line = new Line();
             {
-                final Cell cell = new Cell(ruleSet, null);
+                final Cell cell = new Cell(ruleSet);
                 cell.setRule('1', null, '1', '0');
                 line.addCell(cell);
             }
             {
-                final Cell cell = new Cell(ruleSet, null);
+                final Cell cell = new Cell(ruleSet);
                 cell.setRule('1', '1', '0', null);
                 line.addCell(cell);
             }
             {
-                final Cell cell = new Cell(ruleSet, null);
+                final Cell cell = new Cell(ruleSet);
                 cell.setRule('0', '0', null, '1');
                 line.addCell(cell);
             }
@@ -57,19 +59,44 @@ public class Main {
 
         calcOutput(matrix);
 
+        printMatrix(matrix);
+
+        calcFitness(matrix);
+
+        printMatrix(matrix);
+    }
+
+    private static void addLine(final Matrix matrix, final RuleSet ruleSet, final int linePos, final int cellCount) {
+        final Line line = new Line();
+
+        for (int pos = 0; pos < cellCount; pos++) {
+            final Cell cell = new Cell(ruleSet);
+            line.addCell(cell);
+        }
+        matrix.addLine(linePos, line);
+    }
+
+    private static void printMatrix(final Matrix matrix) {
+        System.out.println("==================");
+        printLine(matrix.getInputLine());
         System.out.println("------------------");
         matrix.getLineList().stream().forEach(line -> {
-            line.getCellList().stream().forEach(cell -> {
-                final Character status = cell.getStatus();
-                if (Objects.nonNull(status)) {
-                    System.out.print(status);
-                } else {
-                    System.out.print("-");
-                }
-            });
-            System.out.println();
+            printLine(line);
         });
         System.out.println("------------------");
+        printLine(matrix.getOutputLine());
+    }
+
+    private static void printLine(final Line line) {
+        line.getCellList().stream().forEach(cell -> {
+            final Character status = cell.getStatus();
+            if (Objects.nonNull(status)) {
+                System.out.print(status);
+            } else {
+                System.out.print(".");
+            }
+        });
+        System.out.println();
     }
 
     private static void calcOutput(final Matrix matrix) {
@@ -92,7 +119,29 @@ public class Main {
         final Rule rule = rules.findRule(inputCells[0].getStatus(), inputCells[1].getStatus(), inputCells[2].getStatus());
 
         if (Objects.nonNull(rule)) {
-            cell.setStatus(rule.outputStatus);
+            cell.setStatusRule(rule);
+        }
+    }
+
+    private static void calcFitness(final Matrix matrix) {
+        final Line outputLine = matrix.getOutputLine();
+        final ArrayList<Line> lineList = matrix.getLineList();
+
+        for (int linePos = lineList.size() - 1; linePos >= 0; linePos--) {
+            final Line lastLine = lineList.get(linePos);
+            outputLine.getCellList().forEach(outputCell -> calcFitness(matrix, lastLine.getCell(outputCell.getPos()), outputCell));
+        }
+    }
+
+    private static void calcFitness(final Matrix matrix, final Cell lastCell, final Cell outputCell) {
+        final Character lastCellStatus = lastCell.getStatus();
+        final Character outputCellStatus = outputCell.getStatus();
+
+        if (!Objects.equals(lastCellStatus, outputCellStatus)) {
+            //lastCell.setFitness(false);
+            lastCell.getStatusRule().outputStatus = outputCellStatus;
+        } else {
+            //lastCell.setFitness(true);
         }
     }
 }

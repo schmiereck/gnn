@@ -11,8 +11,16 @@ public class Matrix {
         this.inputLine = inputLine;
     }
 
+    public Line getInputLine() {
+        return this.inputLine;
+    }
+
     public void setOutputLine(final Line outputLine) {
         this.outputLine = outputLine;
+    }
+
+    public Line getOutputLine() {
+        return this.outputLine;
     }
 
     public ArrayList<Line> getLineList() {
@@ -52,5 +60,9 @@ public class Matrix {
             }
         }
         return cell;
+    }
+
+    public Line getLastLine() {
+        return this.lineList.get(this.lineList.size() - 1);
     }
 }

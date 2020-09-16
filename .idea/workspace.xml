@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="51200838-abbc-4adb-8a01-8a623be928d4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/08c838807ae795e8b23efe8bbb9a0c22d883bf8f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/448ab09c90796e7f8351c03fbb305e99991284df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6e788b76c5aec507ac4ecf31a5287bd3f4ccef72" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93625651e75ec0cd065c4f9feb6141a012d0e48f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccb4bb19019eca72e28f15e954cd697b18903766" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf7ad900e9c407076c77e299616217b2bc092fb8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa856b07f596ade3ee156caebadf0bfb5c0141c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff6068fe572cb55d05c2a64e4527ea1b36f16850" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/schmiereck/projects/gnn/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/schmiereck/projects/gnn/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/schmiereck/projects/gnn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/schmiereck/projects/gnn/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/schmiereck/projects/gnn/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/schmiereck/projects/gnn/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/schmiereck/projects/gnn/Rules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/schmiereck/projects/gnn/Rules.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gnn" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1haVMLb0eRxjtFCuyQ7DPm3Nuf6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.schmiereck.projects.gnn.Main" />
+      <module name="gnn.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.schmiereck.projects.gnn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51200838-abbc-4adb-8a01-8a623be928d4" name="Default Changelist" comment="" />
+      <created>1600249141295</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600249141295</updated>
+      <workItem from="1600249142427" duration="3975000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="424" height="466" key="DebuggerActiveHint" timestamp="1600254602133">
+      <screen x="-1920" y="-140" width="1920" height="1160" />
+    </state>
+    <state width="424" height="466" key="DebuggerActiveHint/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600254602133" />
+    <state x="-1180" y="194" key="FileChooserDialogImpl" timestamp="1600249326539">
+      <screen x="-1920" y="-140" width="1920" height="1160" />
+    </state>
+    <state x="-1180" y="194" key="FileChooserDialogImpl/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600249326539" />
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1600255313947">
+      <screen x="-1920" y="-140" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600255313947" />
+    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1600255313947">
+      <screen x="-1920" y="-140" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600255313947" />
+    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1600255313947">
+      <screen x="-1920" y="-140" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600255313947" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1600255313947">
+      <screen x="-1920" y="-140" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600255313947" />
+    <state width="1877" height="396" key="GridCell.Tab.1.bottom" timestamp="1600254722415">
+      <screen x="-1920" y="-140" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.bottom/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600254722415" />
+    <state width="1877" height="396" key="GridCell.Tab.1.center" timestamp="1600254722414">
+      <screen x="-1920" y="-140" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.center/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600254722414" />
+    <state width="1877" height="396" key="GridCell.Tab.1.left" timestamp="1600254722414">
+      <screen x="-1920" y="-140" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.left/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600254722414" />
+    <state width="1877" height="396" key="GridCell.Tab.1.right" timestamp="1600254722415">
+      <screen x="-1920" y="-140" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.right/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600254722415" />
+    <state x="-1480" y="14" key="SettingsEditor" timestamp="1600249349379">
+      <screen x="-1920" y="-140" width="1920" height="1160" />
+    </state>
+    <state x="-1480" y="14" key="SettingsEditor/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600249349379" />
+    <state x="-915" y="397" key="extract.method.dialog" timestamp="1600255128264">
+      <screen x="-1920" y="-140" width="1920" height="1160" />
+    </state>
+    <state x="-915" y="397" key="extract.method.dialog/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600255128264" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/schmiereck/projects/gnn/Cell.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
