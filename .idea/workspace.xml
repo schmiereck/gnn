@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51200838-abbc-4adb-8a01-8a623be928d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/08c838807ae795e8b23efe8bbb9a0c22d883bf8f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/448ab09c90796e7f8351c03fbb305e99991284df" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6e788b76c5aec507ac4ecf31a5287bd3f4ccef72" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93625651e75ec0cd065c4f9feb6141a012d0e48f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccb4bb19019eca72e28f15e954cd697b18903766" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf7ad900e9c407076c77e299616217b2bc092fb8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa856b07f596ade3ee156caebadf0bfb5c0141c2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff6068fe572cb55d05c2a64e4527ea1b36f16850" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/schmiereck/projects/gnn/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/schmiereck/projects/gnn/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/schmiereck/projects/gnn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/schmiereck/projects/gnn/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/schmiereck/projects/gnn/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/schmiereck/projects/gnn/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/schmiereck/projects/gnn/Rules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/schmiereck/projects/gnn/Rules.java" afterDir="false" />
-    </list>
+    <list default="true" id="51200838-abbc-4adb-8a01-8a623be928d4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +49,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
@@ -127,14 +104,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600249141295</updated>
-      <workItem from="1600249142427" duration="3975000" />
+      <workItem from="1600249142427" duration="4340000" />
     </task>
+    <task id="LOCAL-00001" summary="Add fitness.">
+      <created>1600255527354</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600255527354</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add fitness.">
+      <created>1600255583178</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600255583178</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add fitness." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add fitness." />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="-1335" y="8" key="CommitChangelistDialog2" timestamp="1600255582203">
+      <screen x="-1920" y="-140" width="1920" height="1160" />
+    </state>
+    <state x="-1335" y="8" key="CommitChangelistDialog2/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600255582203" />
     <state width="424" height="466" key="DebuggerActiveHint" timestamp="1600254602133">
       <screen x="-1920" y="-140" width="1920" height="1160" />
     </state>
@@ -143,22 +143,22 @@
       <screen x="-1920" y="-140" width="1920" height="1160" />
     </state>
     <state x="-1180" y="194" key="FileChooserDialogImpl/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600249326539" />
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1600255313947">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1600255539537">
       <screen x="-1920" y="-140" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600255313947" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1600255313947">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600255539537" />
+    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1600255539537">
       <screen x="-1920" y="-140" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600255313947" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1600255313947">
+    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600255539537" />
+    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1600255539537">
       <screen x="-1920" y="-140" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600255313947" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1600255313947">
+    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600255539537" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1600255539537">
       <screen x="-1920" y="-140" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600255313947" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600255539537" />
     <state width="1877" height="396" key="GridCell.Tab.1.bottom" timestamp="1600254722415">
       <screen x="-1920" y="-140" width="1920" height="1160" />
     </state>
@@ -179,6 +179,10 @@
       <screen x="-1920" y="-140" width="1920" height="1160" />
     </state>
     <state x="-1480" y="14" key="SettingsEditor/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600249349379" />
+    <state x="-1368" y="172" key="Vcs.Push.Dialog.v2" timestamp="1600255714510">
+      <screen x="-1920" y="-140" width="1920" height="1160" />
+    </state>
+    <state x="-1368" y="172" key="Vcs.Push.Dialog.v2/0.0.1680.1010/-1920.-140.1920.1160@-1920.-140.1920.1160" timestamp="1600255714510" />
     <state x="-915" y="397" key="extract.method.dialog" timestamp="1600255128264">
       <screen x="-1920" y="-140" width="1920" height="1160" />
     </state>
