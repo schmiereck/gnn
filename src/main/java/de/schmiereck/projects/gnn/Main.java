@@ -61,9 +61,8 @@ public class Main {
 
         printMatrix(matrix);
 
-        calcFitness(matrix);
-
-        printMatrix(matrix);
+        final int errors = calcFitness(matrix);
+        System.out.printf("fitness errors: %d\n", errors);
     }
 
     private static void addLine(final Matrix matrix, final RuleSet ruleSet, final int linePos, final int cellCount) {
@@ -123,25 +122,30 @@ public class Main {
         }
     }
 
-    private static void calcFitness(final Matrix matrix) {
+    private static int calcFitness(final Matrix matrix) {
         final Line outputLine = matrix.getOutputLine();
         final ArrayList<Line> lineList = matrix.getLineList();
+        final Line lastLine = lineList.get(lineList.size() - 1);
 
-        for (int linePos = lineList.size() - 1; linePos >= 0; linePos--) {
-            final Line lastLine = lineList.get(linePos);
-            outputLine.getCellList().forEach(outputCell -> calcFitness(matrix, lastLine.getCell(outputCell.getPos()), outputCell));
-        }
+        final int retError =
+                outputLine.getCellList().stream().
+                        mapToInt(outputCell -> calcFitness(matrix, lastLine.getCell(outputCell.getPos()), outputCell)).
+                        sum();
+
+        return retError;
     }
 
-    private static void calcFitness(final Matrix matrix, final Cell lastCell, final Cell outputCell) {
+    private static int calcFitness(final Matrix matrix, final Cell lastCell, final Cell outputCell) {
+        final int retError;
         final Character lastCellStatus = lastCell.getStatus();
         final Character outputCellStatus = outputCell.getStatus();
 
-        if (!Objects.equals(lastCellStatus, outputCellStatus)) {
-            //lastCell.setFitness(false);
+        if (Objects.equals(lastCellStatus, outputCellStatus)) {
+            retError = 0;
             lastCell.getStatusRule().outputStatus = outputCellStatus;
         } else {
-            //lastCell.setFitness(true);
+            retError = 1;
         }
+        return retError;
     }
 }
