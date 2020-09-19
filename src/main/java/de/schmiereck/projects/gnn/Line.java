@@ -30,4 +30,8 @@ public class Line {
     public Cell getCell(final int cellPos) {
         return this.cellList.get(cellPos);
     }
+
+    public int getMaxCellPos() {
+        return this.cellList.size() - 1;
+    }
 }

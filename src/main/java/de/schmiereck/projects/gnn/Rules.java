@@ -65,4 +65,12 @@ public class Rules {
         }
         return retRule;
     }
+
+    public Rule getRule(int pos) {
+        return this.ruleList[pos];
+    }
+
+    public int getMaxRulePos() {
+        return this.ruleList.length - 1;
+    }
 }
