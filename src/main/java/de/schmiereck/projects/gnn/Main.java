@@ -24,14 +24,20 @@ public class Main {
         //    System.out.println(signCombination);
         //}
 
-        final List<List<Character>> allCombination = ListUtils.getAllCombination(inputSigns, 2);
+        final int ns = 2;
+
+        System.out.println("input combinations:");
+        final List<List<Character>> allCombination = ListUtils.getAllCombination(inputSigns, ns);
         for (int pos = 0; pos < allCombination.size(); pos++) {
             System.out.println(allCombination.get(pos));
         }
 
-        for (int pos = 0; pos < (2*2); pos++) {
+        System.out.println("output combinations:");
+        final int ons = ns*ns;
+
+        for (int pos = 0; pos < (ons); pos++) {
             final List<Character> outputList = new ArrayList<>();
-            for (int oPos = 0; oPos < (2*2); oPos++) {
+            for (int oPos = 0; oPos < (ons); oPos++) {
                 if (pos == oPos) {
                     outputList.add(Character.valueOf('1'));
                 } else {
@@ -166,6 +172,7 @@ public class Main {
             inputArr.forEach(c -> inputLine.addCell(new Cell(ruleSet, c)));
             matrix.setInputLine(inputLine);
         }
+        addLine(matrix, ruleSet, 0, maxCells);
         addLine(matrix, ruleSet, 0, maxCells);
         {
             final Line outputLine = new Line();
